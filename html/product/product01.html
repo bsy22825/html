@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../product/css/product01.css" />
+    <!-- <link rel="stylesheet" href="/product/css/product02.css"> -->
+    <link rel="stylesheet" href="../product/css/product011.css">
+
+
+</head>
+
+<body>
+    <!-- 메뉴 -->
+    <nav class="navi">
+        <h1 class="logo">
+            <a href="../main/index.html"><img src="../image/logo1.png" alt=""></a>
+        </h1>
+        <div class="btn_box">
+            <ul class="btn">
+                <li class="btn_list"><a class="btn_a" href="../company/ceo.html">브랜드</a></li>
+                <li class="btn_list"><a class="btn_a" href="../product/product02.html">제품소개</a></li>
+                <li class="btn_list"><a class="btn_a" href="../customer/customer.html">고객지원</a></li>
+                <li class="btn_list"><a class="btn_a" href="">이벤트</a></li>
+            </ul>
+            <ul class="search">
+                <li class="search_icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0m.6-3h16.8M3.6 15h16.8" />
+                            <path d="M11.5 3a17 17 0 0 0 0 18m1-18a17 17 0 0 1 0 18" />
+                        </g>
+                    </svg>
+                </li>
+                <li class="search_icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2.5"
+                            d="m21 21l-4.343-4.343m0 0A8 8 0 1 0 5.343 5.343a8 8 0 0 0 11.314 11.314" />
+                    </svg>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- 메뉴 -->
+
+    <!-- Swiper 1 -->
+    <div class="swiper mySwiper">
+        <div class="slide_text">REPOSE 소파의 가치입니다</div>
+        <div class="button">
+            <p class="next">NEXT</p>
+            <a class="button_a" href="../product/product02.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 20 20">
+                    <path fill="currentColor" fill-rule="evenodd"
+                        d="m7.053 2.158l7.243 7.256a.66.66 0 0 1 .204.483a.705.705 0 0 1-.204.497c-2.62 2.556-5.145 5.023-7.575 7.401c-.125.117-.625.408-1.011-.024c-.386-.433-.152-.81 0-.966l7.068-6.908l-6.747-6.759c-.246-.339-.226-.652.06-.939c.286-.287.607-.3.962-.04" />
+                </svg></a>
+        </div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+            <div class="swiper-slide"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: "auto",
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
+    <!-- Swiper -->
+
+
+    <!-- Swiper  1-->
+
+
+
+
+
+
+</body>
+
+</html>
